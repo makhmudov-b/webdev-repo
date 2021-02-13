@@ -69,3 +69,37 @@
 #features{
     padding: 10% 10%;
 }
+#testimonials{
+    color: #fff;
+    background-color: #ef8172;
+    text-align: center;
+    font-family: 'Montserrat bold';
+ 
+    
+}
+.carousel-item{
+    padding: 10% 10%;
+}
+.testimonial-image{
+    font-size: small;
+    border-radius: 100%;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 20px 20px 50px;
+    font-size: smaller;
+}
+.pics{
+    width: 15%;
+    margin-right: 5%;
+
+}
+#pricing{
+    text-align: center;
+    padding: 10%;
+}
+p{
+    font-family: Arial, sans-serif;
+    font-size:1rem;
+}
