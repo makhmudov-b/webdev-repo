@@ -2,14 +2,16 @@
     font-family: 'Montserrat';
     font-weight: bold;
 }
-
+/*title */
 #title {
     background-color: #ff4c68;
     color: #fff;
-}
 
+}
+ 
 .container-fluid {
-    padding: 3% 15%!important;
+    padding: 3% 15%;
+    padding-bottom: 7%;
 }
 
 .navbar {
@@ -34,15 +36,27 @@
 }
 
 .buttom {
-    margin: 5% 3% 5% 0!important;
+    margin: 5% 3% 5% 0;
 }
 
 .dogy {
     width: 60%;
     margin-left: 90px;
+    margin-bottom: 20px;
+   
     transform: rotate(25deg);
+    position: absolute;
 }
-
+@media (max-width: 992px){
+    #title{
+        text-align: center;
+    }
+.dogy{
+    margin: auto;
+    position: static;
+    transform: rotate(0);
+}
+}
 .col-lg-4 {
     text-align: center;
     margin: 50px 0;
@@ -67,7 +81,10 @@
     color: #ff4c88;
 }
 #features{
-    padding: 10% 10%;
+    padding: 7% 15%;
+    position: relative;
+    background-color: #fff;
+
 }
 #testimonials{
     color: #fff;
@@ -102,4 +119,26 @@
 p{
     font-family: Arial, sans-serif;
     font-size:1rem;
+}
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 5%;
+
+}
+.cls{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #fff;
+}
+#footer{
+    text-align: center;
+}
+.gtr{
+    font-size: small;
+    color: black;
+    padding: 2% 1%;
+}
+.gtr:hover{
+    color: black;
 }
