@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+.first{
+    background-color: #ff8303;
+    height: 50rem;
+    width: 100%;
+}
+.camelPic{
+    background-image: #ff8303;
+    background-color: #ff8303 ;
+    height: 50%;
+    width: 30%;
+}
+.second{
+    background-color: #a35709;
+    height: 50rem;
+    width: 100%;
+}
+
+.third{
+    background-color: #d44000;
+    height: 50rem;
+    width: 100%;
+}
+.navbar{
+    background-color: #ff8303;
+}
