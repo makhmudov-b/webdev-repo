@@ -32,3 +32,7 @@ app.post("/", function (req, res) {
 app.listen(3000, function () {
     console.log("Port 3000 is used...");
 })
+
+// git add .
+// git commit
+// git push heroku master
