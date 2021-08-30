@@ -1,6 +1,7 @@
 //npm init
 //npm i express body-parser
 //npm i ejs
+//no node_modules
 const express = require("express");
 const bodyParser = require("body-parser");
 
