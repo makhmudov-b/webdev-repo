@@ -36,3 +36,6 @@ app.listen(3000, function () {
 // git add .
 // git commit
 // git push heroku master
+
+//git diff text.txt
+//git checkout tetx.txt
