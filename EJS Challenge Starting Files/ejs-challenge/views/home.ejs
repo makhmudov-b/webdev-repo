@@ -1,0 +1,15 @@
+<%- include("partials/header") -%>
+    <h1>Home</h1>
+    <p>
+        <%= newDiv %>
+    </p>
+
+    <%Title.forEach(function(info){ %>
+        <h1>
+            <%= info.p %>
+        </h1>
+        <p>
+            <%= (info.t).slice(0, 100) + "..." %> <a href="/post/<%=info.p%>">Read more...</a>
+        </p>
+        <%});%>
+            <%- include("partials/footer") -%>
